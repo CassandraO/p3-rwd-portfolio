@@ -11,44 +11,44 @@ YOUR STYLES
 /********************
 YOUR STYLES
 *******************/
-
+/***Stardust pattern Made by Atle Mo retrieved from subtlepatterns.com ***/
 body {
-	background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/green_cup.png");
+	background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/stardust.png");
 }
 
 /* New BG color*/
 .lg-sub-html, .lg-toolbar {
-	background-color: rgba(24, 34, 63, 0.82);
+	background-color: #18223F;
 }
 
 .lg-backdrop {
     /*background-color: rgba(102, 141, 76, 0.58);*/
-	background-color: rgba(102, 141, 76, 0.7);
+	background-color: rgba(24, 34, 63, 0.82);
 }
 
 .lg-image {
     border-radius: none;
-    box-shadow: 0 0 3px #18223F;
+    
 	
 }
 
 
 
-.card a:hover {
-	box-shadow: 3px 3px 8px #18223F;
+.cards a:hover {
+	box-shadow: 3px 3px 8px black;
 	transition: .35s cubic-bezier(0.74, 0.08, 1, 1);
 }
 
 .masthead.clear {
-	background: #668D4C;
-	padding: 30px;
-	
-	margin-bottom: 0px;
+	background: #18223F;
+	padding: 10px;
+	margin-top: -20px;
+	margin-bottom: 10px;
 }
 
 .card {
-	background: #668D4C;
-	
+	background: #18223F;
+	margin: 20px;
 }
 /* FONTS */
 
@@ -57,10 +57,19 @@ h1, h2, h3, p , .lg-sub-html{
 	color: #E8F2F3;
 }
 
+h3 {
+	font-weight: lighter;
+}
+
+h1 {
+	color: #E8F2F3;
+}
+
 .site-title {
 	font-weight: lighter;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2em;
+	color: #E8F2F3;
 }
 
 #lg-counter{
@@ -72,24 +81,44 @@ h1, h2, h3, p , .lg-sub-html{
 }
 
 .lg-toolbar .lg-icon:hover {
-	color: #18223F;
+	color: #57595B;
 }
 
 /* Cards */
 .main-area {
-	padding: 30px;
+	
+	
+}
+
+.card {
+	margin: 40px;
+	margin-bottom: 30px;
+}
+
+.cards {
+	justify-content: center;
+	margin: 30px;
+}
+
+.email {
+	width: 30px;
+	height: 30px;
+	margin-left: 48.75%;
+	
+}
+
+img {
+	width: 100%;
+	height: 250px;
 	
 }
 
 
-img {
-	width: 100%;
-	height: 300px;
-}
 
 .card {
 	text-align: center;
-	display: flex;
+
+	
 }
 
 p {
@@ -107,6 +136,8 @@ footer img {
 	display: inline;
 	text-align: center;
 }
+
+
 
 /*LG*/
 
